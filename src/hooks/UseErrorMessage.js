@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-function UseErrorMessageTest() {
+function UseErrorMessage() {
  const [errorMsg , setErrorMsg] = useState("") ;
 
  const showError = () => setErrorMsg(message) ;
@@ -12,4 +12,4 @@ function UseErrorMessageTest() {
  }
 }
 
-export default UseErrorMessageTest
+export default UseErrorMessage
