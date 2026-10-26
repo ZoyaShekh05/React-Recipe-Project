@@ -127,7 +127,7 @@ import axios from 'axios';
 import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router'
 import useLoading from '../hooks/UseLoading';
-import UseErrorMessage from '../hooks/useErrorMessage';
+import UseErrorMessage from '../hooks/UseErrorMessageTest';
 
 function RecipeDetail() {
   const { id } = useParams();
